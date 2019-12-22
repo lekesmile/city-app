@@ -15,8 +15,22 @@
 
 .Main {
   min-height: 600px;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.cards {
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 40%;
+  width: 25%;
+  border: solid 1px rgb(148, 141, 142);
+  border-radius: 15px;
+  margin-top: 40px;
 }
 
 .Foo {
@@ -29,17 +43,6 @@
 
 .Foo p {
   color: white;
-}
-
-.cards {
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 400px;
-  width: 350px;
-  margin: 10px;
-  border: solid 1px rgb(148, 141, 142);
-  border-radius: 15px;
-  margin-top: 40px;
 }
 
 .ConImg {
